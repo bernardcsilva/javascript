@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    Voce nasceu: <input type="text" name="text" id="text">
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+
+    <script>
+        var txt = window.document.querySelector('input#text')
+        var res = window.document.querySelector('div#res')
+        var pais = txt
+        
+        if (pais == 'Brasil') {
+            res.innerHTML = `Voce é um <strong>BRASILEIRO</strong>` 
+        } else {
+            `Voce é um <strong>ESTRANGEIRO</strong>`
+        }
+    </script>
+
+</body>
+</html>
