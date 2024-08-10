@@ -33,9 +33,9 @@ footer {
     text-align: center;
     font-style: italic;
 }
-#foto {
-    height: 250px;
-    width: 250px;
+img#foto {
     border-radius: 50%;
-
+    width: 150px;
+    height: 150px;
+    
 }

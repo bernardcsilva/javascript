@@ -13,7 +13,7 @@
     <section>
         <div>
             <p>Ano de Nascimento:
-                <input type="number" name="txtano" id="txtano">              
+                <input type="number" name="txtano" id="txtano" min="0">              
             </p>
             <p>Sexo:
                 <input type="radio" name="radsex" id="masc" checked>
@@ -21,12 +21,12 @@
                 <input type="radio" name="radsex" id="fem">
                 <label for="fem">Femenino</label>
             </p>
-            <p><input type="button" value="Verificar" onload="verificar()">
+            <p><input type="button" value="Verificar" onclick="verificar()">
             </p>
         </div>
         <div id="res">
             Preencha os dados acima para ver o resultado!
-            <img id="foto" src="" alt="">
+            
            
         </div>
     </section>
